@@ -1,0 +1,19 @@
+{
+  "name": "p3_diril_simon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:.public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simoncodec/OhMyFood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simoncodec/OhMyFood/issues"
+  },
+  "homepage": "https://github.com/simoncodec/OhMyFood#readme"
+}
