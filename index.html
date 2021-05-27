@@ -5,8 +5,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OhMyFood - Diril Simon</title>
+    <meta name="description" content="Découvrez des menus qui vous conviennent dans des restaurants d'exception">
+    <meta name="keywords" content="gastronomie, menu, restaurant, gastronomique, exception">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/images/logo/ohmyfood.png">
+    <script src="https://kit.fontawesome.com/0f38de17a6.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <header>
+        <div class="header__tittle">
+            <img class="header__img" src="assets/images/logo/ohmyfood.png" alt="logo ohmyfood">
+        </div>
+    </header>
+
+    <div class="nav__ville">
+        <i class="fas fa-map-marker-alt"></i>
+        <input type="search" name="city" value="Paris,Belleville" placeholder="Votre ville">
+    </div>
     
+    <div class="comm">
+        <h2 class="comm__titre">Réservez le menu qui vous convient</h2>
+        <h2 class="comm__sous-titre">Découvrez des restaurants d'exception séléctionées par nos soins.</h2>
+        <a class="comm__boutton">Explorer nos restaurants</a>
+    </div>
+
+    <section class="fonction">
+        <h2>Fonctionnement</h2>
+
+        <ol class="liste">
+            <li class="btn__">Choisissez un restaurant</li>
+            <li class="btn__">Composez votre menu</li>
+            <li class="btn__">Dégustez au restaurant</li>
+        </ol>
+    </section>
+
+    <section class="restau">
+        <h2>restaurants</h2>
+
+        <div class="fiche_restau">
+            <a href="menu_la_palette_du_gout.html">
+                <figure>
+                    <div class="btn__fiche">
+                        <span class="new">Nouveau</span>
+                    </div>
+                    <img src="/assets/images/restaurants/La_palette_du_gout.jpg" alt="La palette du gout">
+                    <figcaption>
+                        <p class="nom">La palette du goût</p>
+                        <i class="fas fa-heart heart_full"></i>
+                        <p class="ville">Ménilmontant</p>
+                    </figcaption>
+                </figure>
+            </a>
+        </div>
+
+        <div class="fiche_restau">
+            <a href="menu_la_note_enchantée.html">
+                <figure>
+                    <div class="btn__fiche">
+                        <span class="new">Nouveau</span>
+                    </div>
+                    <img src="/assets/images/restaurants/La_note_enchantée.jpg" alt="La note enchantée">
+                    <figcaption>
+                        <p class="nom">La note enchantée</p>
+                        <i class="fas fa-heart heart_full"></i>
+                        <p class="ville">Charonne</p>
+                    </figcaption>
+                </figure>
+            </a>
+        </div>
+
+        <div class="fiche_restau">
+            <a href="menu_a_la_francaise.html">
+                <figure>
+                    <div class="btn__fiche">
+                        <span class="new">Nouveau</span>
+                    </div>
+                    <img src="/assets/images/restaurants/A_la_francaise.jpg" alt="A la française">
+                    <figcaption>
+                        <p class="nom">A la francaise</p>
+                        <i class="fas fa-heart heart_full"></i>
+                        <p class="ville">Cité Rouge</p>
+                    </figcaption>
+                </figure>
+            </a>
+        </div>
+
+        <div class="fiche_restau">
+            <a href="menu_le_délice_des_sens.html">
+                <figure>
+                    <div class="btn__fiche">
+                        <span class="new">Nouveau</span>
+                    </div>
+                    <img src="/assets/images/restaurants/Le_delice_des_sens.jpg" alt="Le délice des sens">
+                    <figcaption>
+                        <p class="nom">Le délice des sens</p>
+                        <i class="fas fa-heart heart_full"></i>
+                        <p class="ville">Folie-Méricourt</p>
+                    </figcaption>
+                </figure>
+            </a>
+        </div>
+
+    </section>
+
+    <footer class="findepage">
+        <img src="assets/images/logo/ohmyfood.png" alt="ohmyfood">
+        <div class="about">
+            <ul>
+                <li><a href="#"></a><i class="fas fa-utensils"></i>Proposer un restaurant</a></li>
+                <li><a href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a></li>
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="mailto:contact@ohmyfood.com">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
 </body>
 </html>
