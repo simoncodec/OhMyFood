@@ -1,1 +1,8 @@
-@import "./_Utils/variables"
+@import "./_Utils/variables",
+"./_Utils/maps";
+
+@import "./_Base/general", 
+"./_Base/typographie";
+
+@import "./_Layout/header",
+"./_Layout/footer";
