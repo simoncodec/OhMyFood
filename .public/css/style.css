@@ -17,14 +17,14 @@ li {
   list-style-type: none;
 }
 
-@font-face {
-  font-family: "Roboto";
-  src: url(./polices/Roboto/Roboto-Regular.ttf), url(./polices/Roboto/Roboto-Bold.ttf), url(./polices/Roboto/Roboto-Medium.ttf);
+.H-F {
+  font-family: "Shrikhand", sans-serif;
 }
-@font-face {
-  font-family: "Shrikhand";
-  src: url(./polices/Shrikhand/Shrikhand-Regular.ttf), format("ttf");
+
+body, html, p {
+  font-family: "Roboto", "sans-serif";
 }
+
 header {
   display: flex;
   text-align: center;
@@ -33,6 +33,23 @@ header {
 
 header img {
   width: 50%;
+}
+
+.nav__ville {
+  text-align: center;
+  justify-content: center;
+  background-color: #EAEAEA;
+  padding: 5px 0 5px 0;
+}
+
+.comm {
+  background-color: #EAEAEA;
+}
+.comm .comm__titre {
+  font-weight: 900;
+}
+.comm .comm__sous-titre {
+  font-weight: 100;
 }
 
 footer {
