@@ -44,12 +44,68 @@ header img {
 
 .comm {
   background-color: #EAEAEA;
+  font-weight: 600;
+  text-align: center;
 }
-.comm .comm__titre {
-  font-weight: 900;
+
+.restau {
+  background-color: #F6F6F6;
+  padding: 20px;
 }
-.comm .comm__sous-titre {
-  font-weight: 100;
+.restau h2 {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .restau {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
+
+.fiche {
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px 0px;
+  position: relative;
+  background: white;
+  margin: 20px;
+}
+@media screen and (min-width: 768px) {
+  .fiche {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .fiche {
+    width: 45%;
+  }
+}
+
+.fiche img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-height: 250px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.fiche figure {
+  margin: 0;
+}
+
+.fiche figcaption {
+  position: relative;
+  padding: 10px;
+}
+.fiche figcaption h3,
+.fiche figcaption p {
+  margin: 5px;
+}
+.fiche figcaption .fa-heart {
+  position: absolute;
+  right: 20px;
+  bottom: 25px;
 }
 
 footer {
@@ -74,6 +130,12 @@ footer .fa-utensils {
 }
 footer .fas {
   margin-right: 10px;
+}
+
+.imag_header img {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */

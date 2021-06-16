@@ -1,4 +1,5 @@
 @import "./_Utils/variables",
+"./_Utils/mixins",
 "./_Utils/maps";
 
 @import "./_Base/general", 
@@ -7,4 +8,6 @@
 @import "./_Layout/header",
 "./_Layout/nav",
 "./_Layout/commentaire",
-"./_Layout/footer";
+"./_Layout/restau",
+"./_Layout/footer",
+"./_Layout/menus";

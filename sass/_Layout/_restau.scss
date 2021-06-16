@@ -1,0 +1,51 @@
+.restau
+{
+    background-color: $Cmenu;
+    padding: 20px;
+
+    h2
+    {
+        width: 100%;
+    }
+    @include tablet {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+}
+
+
+.fiche
+{
+    @include radius-shadow;
+    @include fiche;
+    @include tablet{
+        width: 45%;
+    }
+    @include desktop {
+        width: 45%;
+    }
+}
+
+.fiche img {
+    @include fiche_restau__img;
+}
+
+.fiche figure {
+    margin: 0;
+}
+
+.fiche figcaption {
+    position: relative;
+    padding: 10px;
+    & h3,
+    p {
+        margin: 5px;
+    }
+    & .fa-heart {
+        position: absolute;
+        right: 20px;
+        bottom: 25px;
+    }
+}
