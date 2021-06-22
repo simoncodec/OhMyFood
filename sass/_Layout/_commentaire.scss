@@ -1,6 +1,12 @@
 .comm
 {
-    background-color: $Cnav;
-    font-weight: 600;
-    text-align: center;
+    @include exploration;
+    h2 {
+        font-weight: 900;
+    }
+
+    p{
+        color: #696969;
+        font-weight: 100;
+    }
 }

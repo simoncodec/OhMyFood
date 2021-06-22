@@ -1,5 +1,5 @@
-.fonction {
-    @include fonction;
+.fonctionnement {
+    @include fonctionnement;
     h2 {
         align-items: flex-start;
     }   
@@ -17,6 +17,14 @@
             }
 
             @include radius-shadow;
+            }
         }
     }
-}
+
+    p {
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+    .fas {
+        color: grey;
+    }
