@@ -1,0 +1,22 @@
+.fonction {
+    @include fonction;
+    h2 {
+        align-items: flex-start;
+    }   
+
+    ul {
+         @include tablet { display: flex;
+            justify-content: space-around;
+        }
+        padding: 0;
+
+        li {
+            @include tablet {
+                display: flex;
+                width: 30%;
+            }
+
+            @include radius-shadow;
+        }
+    }
+}
