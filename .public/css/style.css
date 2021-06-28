@@ -180,6 +180,7 @@ footer .fas {
   .fonctionnement ul {
     display: flex;
     justify-content: space-around;
+    flex-direction: unset;
   }
 }
 .fonctionnement ul li {
@@ -269,6 +270,39 @@ p {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+}
+
+.nav__ville {
+  background-color: #dcdcdc;
+  box-shadow: inset 0px 3px 3px 0px #C0C0C0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.search {
+  background-color: #dcdcdc;
+  font-size: 15px;
+  border: none;
+  text-align: center;
+}
+
+.exploration_btn button {
+  background-image: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  color: white;
+  font-weight: 700;
+  padding: 12px 20px;
+  border: none;
+  transform: scale(1);
+  transition: transform 400ms;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px 0px;
+}
+.exploration_btn button:hover {
+  background-color: #ae80e5;
+  box-shadow: 4px 4px 6px #b2bec3;
+  transform: scale(1.15);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,8 @@
+.exploration_btn button
+{
+    @include btn_exploration;
+    @include radius-shadow;
+    &:hover {
+        @include hover_btn;
+    }
+}

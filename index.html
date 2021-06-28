@@ -7,8 +7,6 @@
     <title>OhMyFood - Diril Simon</title>
     <meta name="description" content="Découvrez des menus qui vous conviennent dans des restaurants d'exception">
     <meta name="keywords" content="gastronomie, menu, restaurant, gastronomique, Paris, commande, livraison">
-    <link rel="stylesheet" href="link rel="preconnect href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href=".public/css/style.css">
@@ -25,13 +23,15 @@
 
     <div class="nav__ville">
         <i class="fas fa-map-marker-alt"></i>
-        <span class="nav__search"><input type="search" name="city" value="Paris,Belleville" placeholder="Votre ville"></span> 
+        <span class="search"><input class="search" type="search" name="city" value="Paris,Belleville" placeholder="Paris,Belleville"></span> 
     </div>
     
     <div class="comm">
         <h2 class="comm__titre">Réservez le menu qui vous convient</h2>
         <p class="comm__sous-titre">Découvrez des restaurants d'exception séléctionées par nos soins.</p>
-        <a class="comm__boutton">Explorer nos restaurants</a>
+        <span class="exploration_btn">
+        <a href="#"><button>Explorer nos restaurants</button></a>
+        </span>
     </div>
 
     <section class="fonctionnement">

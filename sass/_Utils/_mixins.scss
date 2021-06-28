@@ -4,7 +4,20 @@
 }
 
 @mixin nav {
-    
+    background-color: #dcdcdc;
+    font-size: 15px;
+    border: none;
+    text-align: center;
+}
+
+@mixin btn_exploration {
+    background-image: $linear-gradient;
+    color: white;
+    font-weight: 700;
+    padding: 12px 20px;
+    border: none;
+    transform: scale(1);
+    transition: transform 400ms;
 }
 
 @mixin fiche_restau__img {
@@ -115,6 +128,13 @@
             position: absolute;
             left: -10px;
         }
+    }
+
+    @mixin hover_btn {
+        background-color: lighten(#9356DC, 10%);
+        box-shadow: 4px 4px 6px #b2bec3;
+        transform: scale(1.15);
+        
     }
 
     @mixin tablet {
