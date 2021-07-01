@@ -130,6 +130,18 @@
         }
     }
 
+    @mixin new {
+        background-color: $Cpolices;
+        border: 6px solid $Cpolices;
+        color: $Cnouveau;
+        margin-top: 10px;
+        position: absolute;
+        margin-top: 27px;
+        left: 77%;
+        font-weight: bold;
+        
+    }
+
     @mixin hover_btn {
         background-color: lighten(#9356DC, 10%);
         box-shadow: 4px 4px 6px #b2bec3;
