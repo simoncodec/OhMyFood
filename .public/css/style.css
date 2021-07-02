@@ -35,6 +35,12 @@ header img {
   width: 50%;
 }
 
+.arrow {
+  position: absolute;
+  top: 5%;
+  left: 15px;
+}
+
 .nav__ville {
   text-align: center;
   justify-content: center;
@@ -193,6 +199,11 @@ footer .fas {
     width: 30%;
   }
 }
+.fonctionnement ul li:hover {
+  background-color: #ae80e5;
+  box-shadow: 4px 4px 6px #b2bec3;
+  transform: scale(1);
+}
 
 p {
   margin-left: 20px;
@@ -302,7 +313,7 @@ p {
 .exploration_btn button:hover {
   background-color: #ae80e5;
   box-shadow: 4px 4px 6px #b2bec3;
-  transform: scale(1.15);
+  transform: scale(1);
 }
 
 .new {
@@ -317,6 +328,15 @@ p {
   position: absolute;
   margin-top: 27px;
   left: 77%;
+  font-weight: bold;
+}
+
+.heart_full:hover {
+  animation: heart_full 200ms ease-in-out;
+  display: inline-block;
+  opacity: 1;
+  background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   font-weight: bold;
 }
 

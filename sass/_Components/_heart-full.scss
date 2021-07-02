@@ -1,0 +1,9 @@
+.heart_full:hover
+{
+    animation: heart_full 200ms ease-in-out;
+    display: inline-block;
+    opacity: 1;
+    background: $linear-gradient;
+    background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+    font-weight: bold;
+}
