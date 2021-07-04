@@ -1,0 +1,14 @@
+.order
+{
+    display: unset;
+}
+
+.order__btn
+{
+    @include btn_order;
+    @include radius-shadow;
+    &:hover
+    {
+        @include hover_btn;
+    }
+}

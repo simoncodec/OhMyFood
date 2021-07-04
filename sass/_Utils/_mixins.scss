@@ -137,9 +137,19 @@
         margin-top: 10px;
         position: absolute;
         margin-top: 27px;
-        left: 77%;
+        left: 70%;
         font-weight: bold;
         
+    }
+
+    @mixin btn_order {
+        background-image: $linear-gradient;
+        color: white;
+        font-weight: 600;
+        padding: 12px 30px;
+        border: none;
+        transform: scale(1);
+        transition: transform 400ms;
     }
 
     @mixin hover_btn {
