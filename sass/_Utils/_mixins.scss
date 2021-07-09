@@ -120,7 +120,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: #9356dc;
+            background-color: #9356DC;
             color: white;
             border-radius: 100%;
             width: 30px;
@@ -132,13 +132,12 @@
 
     @mixin new {
         background-color: $Cpolices;
-        border: 6px solid $Cpolices;
+        border: 7px solid $Cpolices;
         color: $Cnouveau;
         margin-top: 10px;
         position: absolute;
         margin-top: 27px;
         left: 70%;
-        font-weight: bold;
     }
 
     @mixin btn_order {
@@ -152,7 +151,7 @@
     }
 
     @mixin hover_btn {
-        background-color: lighten(#9356DC, 10%);
+        background-color: lighten(#a873e994, 10%);
         box-shadow: 4px 4px 6px #b2bec3;
         transform: scale(1);
         

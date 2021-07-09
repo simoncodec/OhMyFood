@@ -33,9 +33,11 @@
 
 .menu__EPD
 {
-    text-align: start;
-    margin: 0;
-    padding-top: 5px;
+    width: 40px;
+    border-bottom: 2px solid $Cpolices;
+    margin-left: 20px;
+    font-weight: 100;
+    font-size: initial;
 }
 
 

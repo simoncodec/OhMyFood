@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -17,17 +18,17 @@ li {
   list-style-type: none;
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url("polices/Roboto/Roboto-Regular.ttf");
+}
 .H-F, .nom_restaurants {
-  font-family: "Shrikhand", sans-serif;
+  font-family: "Shrikhand", cursive;
   padding: 10px 10px 10px 0px;
 }
 
-body, html, p {
-  font-family: "Roboto", "sans-serif";
-}
-
-h2, .nom {
-  font-family: Arial, Helvetica, sans-serif;
+body {
+  font-family: Roboto, sans-serif;
 }
 
 header {
@@ -173,7 +174,7 @@ footer .fas {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #9356dc;
+  background-color: #9356DC;
   color: white;
   border-radius: 100%;
   width: 30px;
@@ -205,14 +206,13 @@ footer .fas {
   }
 }
 .fonctionnement ul li:hover {
-  background-color: #ae80e5;
+  background-color: rgba(195, 159, 240, 0.5803921569);
   box-shadow: 4px 4px 6px #b2bec3;
   transform: scale(1);
 }
 
 p {
   margin-left: 20px;
-  margin-right: 50px;
 }
 
 .p1 {
@@ -253,9 +253,11 @@ p {
 }
 
 .menu__EPD {
-  text-align: start;
-  margin: 0;
-  padding-top: 5px;
+  width: 40px;
+  border-bottom: 2px solid #99E2D0;
+  margin-left: 20px;
+  font-weight: 100;
+  font-size: initial;
 }
 
 .menu {
@@ -316,7 +318,7 @@ p {
   box-shadow: 0px 0px 2px 0px;
 }
 .exploration_btn button:hover {
-  background-color: #ae80e5;
+  background-color: rgba(195, 159, 240, 0.5803921569);
   box-shadow: 4px 4px 6px #b2bec3;
   transform: scale(1);
 }
@@ -327,13 +329,12 @@ p {
 
 .new {
   background-color: #99E2D0;
-  border: 6px solid #99E2D0;
+  border: 7px solid #99E2D0;
   color: #008766;
   margin-top: 10px;
   position: absolute;
   margin-top: 27px;
   left: 70%;
-  font-weight: bold;
 }
 
 .heart_full:hover {
@@ -361,7 +362,7 @@ p {
   box-shadow: 0px 0px 2px 0px;
 }
 .order__btn:hover {
-  background-color: #ae80e5;
+  background-color: rgba(195, 159, 240, 0.5803921569);
   box-shadow: 4px 4px 6px #b2bec3;
   transform: scale(1);
 }
