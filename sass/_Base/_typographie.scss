@@ -13,7 +13,17 @@
     padding: 10px 10px 10px 0px;
 }
 
-body 
+body
 {
     font-family: Roboto, sans-serif;
+}
+
+.ville, .menu__titre--acp
+{
+    font-weight: 100;
+}
+
+.menu__titre--prix
+{
+    font-weight: 600;
 }

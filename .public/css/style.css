@@ -31,6 +31,14 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.ville, .menu__titre--acp {
+  font-weight: 100;
+}
+
+.menu__titre--prix {
+  font-weight: 600;
+}
+
 header {
   display: flex;
   text-align: center;
@@ -271,6 +279,17 @@ p {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  transition: padding-right 450ms ease-in-out;
+}
+.menu:hover {
+  padding-right: 75px;
+}
+.menu:hover .check {
+  opacity: 1;
+  transform: translate(-50px);
+}
+.menu:hover .fa-check-circle {
+  transform: rotate(360deg);
 }
 .menu h4 {
   text-align: start;
@@ -288,6 +307,27 @@ p {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+}
+
+.check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99E2D0;
+  width: 50px;
+  height: 100%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  padding: 20px;
+  right: -50px;
+  top: 0%;
+  opacity: 0;
+  transition: transform 330ms ease-in-out;
+}
+.check .fa-check-circle {
+  color: #FFF;
+  transition: transform 500ms ease-in-out;
 }
 
 .nav__ville {
@@ -309,7 +349,6 @@ p {
 .exploration_btn button {
   background-image: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   color: white;
-  font-weight: 700;
   padding: 12px 20px;
   border: none;
   transform: scale(1);
@@ -337,12 +376,13 @@ p {
   left: 70%;
 }
 
-.heart_full:hover {
+.fa-heart:hover {
   animation: heart_full 200ms ease-in-out;
   display: inline-block;
   opacity: 1;
   background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-  background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
 

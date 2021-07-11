@@ -13,7 +13,6 @@
 @mixin btn_exploration {
     background-image: $linear-gradient;
     color: white;
-    font-weight: 700;
     padding: 12px 20px;
     border: none;
     transform: scale(1);
@@ -91,6 +90,20 @@
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
+        transition: padding-right 450ms ease-in-out;
+        &:hover
+        {
+            padding-right: 75px;
+        }
+        &:hover .check
+        {
+            opacity: 1;
+            transform: translate(-50px);
+        }
+        &:hover .fa-check-circle
+        {
+            transform: rotate(360deg);
+        }
         
     }
 
@@ -148,6 +161,29 @@
         border: none;
         transform: scale(1);
         transition: transform 400ms;
+    }
+
+    @mixin check {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $Cpolices;
+        width: 50px;
+        height: 100%;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        position: absolute;
+        padding: 20px;
+        right: -50px;
+        top: 0%;
+        opacity: 0;
+        transition: transform 330ms ease-in-out;
+        & .fa-check-circle
+            {
+                color: #FFF;
+                transition: transform 500ms ease-in-out;
+            }
+        
     }
 
     @mixin hover_btn {
