@@ -309,6 +309,16 @@ p {
   overflow: hidden;
 }
 
+.menu__titre--acp {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.menu_choix {
+  animation: fadein 4s ease-in-out;
+}
+
 .check {
   display: flex;
   justify-content: center;
