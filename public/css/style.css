@@ -92,7 +92,7 @@ header img {
 
 .fiche {
   border-radius: 20px;
-  box-shadow: 0px 0px 2px 0px;
+  box-shadow: 4px 4px 6px #b2bec3;
   position: relative;
   background: white;
   margin: 20px;
@@ -205,7 +205,7 @@ footer .fas {
 }
 .fonctionnement ul li {
   border-radius: 20px;
-  box-shadow: 0px 0px 2px 0px;
+  box-shadow: 4px 4px 6px #b2bec3;
 }
 @media screen and (min-width: 768px) {
   .fonctionnement ul li {
@@ -255,7 +255,6 @@ p {
 
 @media screen and (min-width: 1440px) {
   .menu_choix {
-    display: flex;
     justify-content: space-around;
   }
 }
@@ -270,7 +269,7 @@ p {
 
 .menu {
   border-radius: 20px;
-  box-shadow: 0px 0px 2px 0px;
+  box-shadow: 4px 4px 6px #b2bec3;
   background-color: white;
   margin: 20px;
   padding: 10px;
@@ -315,7 +314,7 @@ p {
   overflow: hidden;
 }
 
-.menu_choix {
+.P22 {
   animation: fadein 4s ease-in-out;
 }
 
@@ -364,7 +363,7 @@ p {
   transform: scale(1);
   transition: transform 400ms;
   border-radius: 20px;
-  box-shadow: 0px 0px 2px 0px;
+  box-shadow: 4px 4px 6px #b2bec3;
 }
 .exploration_btn button:hover {
   background-color: rgba(195, 159, 240, 0.5803921569);
@@ -409,7 +408,7 @@ p {
   transform: scale(1);
   transition: transform 400ms;
   border-radius: 20px;
-  box-shadow: 0px 0px 2px 0px;
+  box-shadow: 4px 4px 6px #b2bec3;
 }
 .order__btn:hover {
   background-color: rgba(195, 159, 240, 0.5803921569);
@@ -431,7 +430,7 @@ p {
   line-height: 100%;
   position: fixed;
   z-index: 3;
-  animation: loading 2100ms ease-in-out forwards;
+  animation: loading 3.2s ease-in-out forwards;
 }
 .loader__loading {
   vertical-align: middle;
@@ -444,7 +443,7 @@ p {
   left: 0px;
   bottom: 0px;
   background: linear-gradient(to right, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-  animation: loading 2100ms cubic-bezier(0.16, 0.84, 0.44, 1);
+  animation: loading 3.2s cubic-bezier(0.16, 0.84, 0.44, 1);
   animation-delay: 0;
 }
 

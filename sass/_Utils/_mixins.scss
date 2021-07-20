@@ -1,6 +1,7 @@
 @mixin radius-shadow {
     border-radius: 20px;
-    box-shadow: 0px 0px 2px 0px;
+    box-shadow: 4px 4px 6px #b2bec3;
+
 }
 
 @mixin nav {

@@ -25,7 +25,6 @@
 {
     @include desktop 
     {
-        display: flex;
         justify-content: space-around;
     }
 
@@ -74,7 +73,9 @@
     overflow: hidden;
 }
 
-.menu_choix
+
+
+.P22
 {
     animation: fadein 4s ease-in-out;
 }
