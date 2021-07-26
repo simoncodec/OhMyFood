@@ -1,10 +1,39 @@
-.fa-heart:hover
+.restaurant-likes .fas:before 
 {
-    animation: heart_full 200ms ease-in-out;
-    display: inline-block;
-    opacity: 1;
-    background: $linear-gradient;
+    overflow: hidden;
+    height: 0;
+    display: block;
+    }
+
+.restaurant-likes:hover .far 
+{
+    opacity: 0;
+    transition: opacity 5;
+  }
+
+ .restaurant-likes:hover .fas 
+ {
+    background: linear-gradient(#9356DC, #FF79DA);
+    background-size: 100%;
     -webkit-background-clip: text;
+    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: bold;
-}
+    -moz-text-fill-color: transparent;
+    transition-duration: 500ms;
+  }
+
+  .restaurant-likes:hover .fas:before 
+  {
+    height: 30px;
+    transition: 500ms;
+  }
+
+  .restaurant-likes
+  {
+    top: 1px;
+    right: 0px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+  }

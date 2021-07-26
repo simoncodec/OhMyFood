@@ -133,6 +133,7 @@ header img {
   position: absolute;
   right: 20px;
   bottom: 25px;
+  font-size: 30px;
 }
 
 footer {
@@ -214,7 +215,7 @@ footer .fas {
   }
 }
 .fonctionnement ul li:hover {
-  background-color: rgba(195, 159, 240, 0.5803921569);
+  background-color: rgba(195, 159, 240, 0.22);
   box-shadow: 4px 4px 6px #b2bec3;
   transform: scale(1);
 }
@@ -314,10 +315,6 @@ p {
   overflow: hidden;
 }
 
-.P22 {
-  animation: fadein 4s ease-in-out;
-}
-
 .check {
   display: flex;
   justify-content: center;
@@ -366,7 +363,7 @@ p {
   box-shadow: 4px 4px 6px #b2bec3;
 }
 .exploration_btn button:hover {
-  background-color: rgba(195, 159, 240, 0.5803921569);
+  background-color: rgba(195, 159, 240, 0.22);
   box-shadow: 4px 4px 6px #b2bec3;
   transform: scale(1);
 }
@@ -385,14 +382,39 @@ p {
   left: 70%;
 }
 
-.fa-heart:hover {
-  animation: heart_full 200ms ease-in-out;
-  display: inline-block;
-  opacity: 1;
-  background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+.restaurant-likes .fas:before {
+  overflow: hidden;
+  height: 0;
+  display: block;
+}
+
+.restaurant-likes:hover .far {
+  opacity: 0;
+  transition: opacity 5;
+}
+
+.restaurant-likes:hover .fas {
+  background: linear-gradient(#9356DC, #FF79DA);
+  background-size: 100%;
   -webkit-background-clip: text;
+  -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: bold;
+  -moz-text-fill-color: transparent;
+  transition-duration: 500ms;
+}
+
+.restaurant-likes:hover .fas:before {
+  height: 30px;
+  transition: 500ms;
+}
+
+.restaurant-likes {
+  top: 1px;
+  right: 0px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  font-size: 30px;
 }
 
 .order {
@@ -411,7 +433,7 @@ p {
   box-shadow: 4px 4px 6px #b2bec3;
 }
 .order__btn:hover {
-  background-color: rgba(195, 159, 240, 0.5803921569);
+  background-color: rgba(195, 159, 240, 0.22);
   box-shadow: 4px 4px 6px #b2bec3;
   transform: scale(1);
 }
