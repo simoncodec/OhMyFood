@@ -479,5 +479,17 @@ p {
     right: -100%;
   }
 }
+.menu_choix {
+  animation: fadein 2s ease-in-out;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
