@@ -38,16 +38,22 @@
 
 .fiche figcaption {
     position: relative;
-    padding: 10px;
-    & h3,
-    p {
-        margin: 5px;
+    padding: 15px;
+    text-align: start;
+
+    h3{
+        margin-block-start: 3px;
+        margin-block-end: 3px;
     }
+    
     & .fa-heart {
         position: absolute;
         right: 20px;
         bottom: 25px;
-        font-size: 30px;
     }
 }
 
+.menu_choix
+{
+    
+}

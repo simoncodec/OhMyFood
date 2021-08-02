@@ -33,6 +33,7 @@ body {
 
 .ville, .menu__titre--acp {
   font-weight: 100;
+  display: contents;
 }
 
 .menu__titre--prix {
@@ -123,17 +124,17 @@ header img {
 
 .fiche figcaption {
   position: relative;
-  padding: 10px;
+  padding: 15px;
+  text-align: start;
 }
-.fiche figcaption h3,
-.fiche figcaption p {
-  margin: 5px;
+.fiche figcaption h3 {
+  margin-block-start: 3px;
+  margin-block-end: 3px;
 }
 .fiche figcaption .fa-heart {
   position: absolute;
   right: 20px;
   bottom: 25px;
-  font-size: 30px;
 }
 
 footer {
@@ -257,6 +258,7 @@ p {
 @media screen and (min-width: 1440px) {
   .menu_choix {
     justify-content: space-around;
+    display: inline-grid;
   }
 }
 
@@ -382,39 +384,26 @@ p {
   left: 70%;
 }
 
-.restaurant-likes .fas:before {
-  overflow: hidden;
-  height: 0;
-  display: block;
+.heart-section .icon--full {
+  color: white;
 }
-
-.restaurant-likes:hover .far {
-  opacity: 0;
-  transition: opacity 5;
-}
-
-.restaurant-likes:hover .fas {
-  background: linear-gradient(#9356DC, #FF79DA);
-  background-size: 100%;
+.heart-section:hover .icon--full {
+  background: linear-gradient(#ff79da 0%, #9356dc 100%);
+  background-clip: inherit;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  transition-duration: 500ms;
+  transition: color 0.9s;
+}
+.heart-section:hover .icon--empty {
+  opacity: 0;
+  transition-duration: 0.5s;
 }
 
-.restaurant-likes:hover .fas:before {
-  height: 30px;
-  transition: 500ms;
-}
-
-.restaurant-likes {
-  top: 1px;
-  right: 0px;
+.fa-heart {
+  position: absolute;
+  left: 85%;
+  font-size: 1.5em;
   cursor: pointer;
-  display: block;
-  text-align: center;
-  font-size: 30px;
 }
 
 .order {
