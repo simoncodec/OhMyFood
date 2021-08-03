@@ -13,7 +13,15 @@
 
 .page
 {
-    @include menu_page
+    @include menu_page;
+}
+
+.page
+{
+    @include desktop {
+        max-width: 1280px;
+        margin: auto;
+    }
 }
 
 .nom_restaurants

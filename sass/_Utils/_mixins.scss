@@ -190,9 +190,8 @@
 
     @mixin hover_btn {
         background-color: rgb(195 159 240 / 22%);
-        box-shadow: 4px 4px 6px #b2bec3;
+        box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
         transform: scale(1);
-        
     }
 
     @mixin tablet {

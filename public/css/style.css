@@ -222,7 +222,7 @@ footer .fas {
 }
 .fonctionnement ul li:hover {
   background-color: rgba(195, 159, 240, 0.22);
-  box-shadow: 4px 4px 6px #b2bec3;
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
   transform: scale(1);
 }
 
@@ -251,6 +251,13 @@ p {
   border-top-left-radius: 30px;
   position: relative;
   top: -29px;
+}
+
+@media screen and (min-width: 1440px) {
+  .page {
+    max-width: 1280px;
+    margin: auto;
+  }
 }
 
 .nom_restaurants {
@@ -372,7 +379,7 @@ p {
 }
 .exploration_btn button:hover {
   background-color: rgba(195, 159, 240, 0.22);
-  box-shadow: 4px 4px 6px #b2bec3;
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
   transform: scale(1);
 }
 
@@ -428,8 +435,14 @@ p {
 }
 .order__btn:hover {
   background-color: rgba(195, 159, 240, 0.22);
-  box-shadow: 4px 4px 6px #b2bec3;
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
   transform: scale(1);
+}
+@media screen and (min-width: 1440px) {
+  .order__btn {
+    display: flex;
+    margin: auto;
+  }
 }
 
 .loader {

@@ -11,4 +11,10 @@
     {
         @include hover_btn;
     }
+
+    @include desktop{
+        display: flex;
+        margin: auto;
+    }
 }
+
