@@ -33,7 +33,7 @@ body {
 
 .ville, .menu__titre--acp {
   font-weight: 100;
-  display: contents;
+  display: block;
 }
 
 .menu__titre--prix {
@@ -134,7 +134,12 @@ header img {
 .fiche figcaption .fa-heart {
   position: absolute;
   right: 20px;
-  bottom: 25px;
+  top: 25px;
+}
+
+.ville {
+  margin-left: 0px;
+  margin-block-start: 3px;
 }
 
 footer {
@@ -253,6 +258,7 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  margin-right: 30px;
 }
 
 @media screen and (min-width: 1440px) {
@@ -401,7 +407,6 @@ p {
 
 .fa-heart {
   position: absolute;
-  left: 85%;
   font-size: 1.5em;
   cursor: pointer;
 }
