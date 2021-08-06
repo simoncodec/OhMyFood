@@ -166,6 +166,20 @@ footer .fas {
   margin-right: 10px;
 }
 
+@media screen and (min-width: 1440px) {
+  .findepage h2 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about ul {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
 .fonctionnement {
   margin: 20px;
 }
@@ -306,10 +320,17 @@ p {
 .menu:hover .fa-check-circle {
   transform: rotate(360deg);
 }
+@media screen and (min-width: 1440px) {
+  .menu {
+    width: 340px;
+  }
+}
 .menu h4 {
   text-align: start;
   margin: 0;
   padding-top: 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .menu_titre {
   display: flex;
@@ -324,7 +345,7 @@ p {
   overflow: hidden;
 }
 
-.menu__titre--acp {
+.menu .menu__titre--acp {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;

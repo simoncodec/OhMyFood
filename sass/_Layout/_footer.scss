@@ -33,3 +33,24 @@ footer
         margin-right: 10px;
     }
 }
+
+.findepage
+{
+    h2{
+    @include desktop 
+        {
+        display: flex;
+        justify-content: center;
+        }
+    }
+}
+
+.about
+{
+    ul {
+        @include desktop {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}
